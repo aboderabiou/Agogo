@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="icon.png">
+    <title>Agogo</title>
+</head>
+<body class="bg-secondary text-light">
+   <div class="section border-bottom">
+    <div class="container-fluid">
+        <div class="row py-4">
+            <div class="col-md-1 col-sm-12 p-2 m-1 text-light"> Compte À Rebour</div>
+            <div data-time="20" class="col-md-2 col-sm-12 p-2 m-1 text-light btn btn-outline-success">20 SEC ⏱</div>
+            <div data-time="300" class="col-md-2 col-sm-12 p-2 m-1 text-light btn btn-outline-primary">💆🏽‍♂️ ÉTIREMENT 5</div>
+            <div data-time="900" class="col-md-2 col-sm-12 p-2 m-1 text-light btn btn-outline-warning">☕️ CHAYI 15</div>
+            <div data-time="1200" class="col-md-2 col-sm-12 p-2 m-1 text-light btn btn-outline-danger">🍲 DAMBOU 20</div>
+            <div data-time="3600" class="col-md-2 col-sm-12 p-2 m-1 text-light btn btn-outline-info">🍽 DÉJEUNER</div>
+        </div>
+    </div>
+   </div>
+   <div class="section m-5">
+    <div class="row py-5">
+        <div class="offset-md-5"></div>
+        <div class="col-md-2">
+            <form name="customForm" id="custom">
+                <input type="text" name="minutes" placeholder="Enter Minutes" size="20">
+              </form> 
+        
+            <div class="display">
+              <h1 class="rebour text-warning display-1"></h1>
+              <p class="messages h3 text-light"></p>
+            </div>
+        </div>
+        <div class="offset-md-5"></div>
+    </div>
+   </div>
+   <div class="section text-center">
+       <h3 class="temps"></h3>
+       <p class="reste"></p>
+   </div>
+
+
+
+   <script src="script.js"></script>
+</body>
+</html>
